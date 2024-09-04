@@ -4,13 +4,13 @@ public class Main {
     public static void main(String[] args) {
 
         //Задача №1//
-        Scanner in = new Scanner(System.in);
-        System.out.print("Введите целое число: ");
-        int a = in.nextInt();
-        if (a%2==0)
-            System.out.println("Число четное");
-        else
-            System.out.println("Число нечетное");
+//        Scanner in = new Scanner(System.in);
+//        System.out.print("Введите целое число: ");
+//        int a = in.nextInt();
+//        if (a%2==0)
+//            System.out.println("Число четное");
+//        else
+//            System.out.println("Число нечетное");
 
         //Задача №2//
 //        Scanner in = new Scanner(System.in);
@@ -47,18 +47,18 @@ public class Main {
 //        System.out.println(sum);
 
         //Задача №5//
-//        Scanner in = new Scanner(System.in);
-//        System.out.print("Введите число: ");
-//        int n = in.nextInt();
-//        int[] f = new int[n];
-//        f[0] = 0;
-//        f[1] = 1;
-//        for (int i = 2; i < n; ++i) {
-//            f[i] = f[i - 1] + f[i - 2];
-//        }
-//        for (int i = 0; i < n; ++i) {
-//            System.out.println(f[i]);
-//        }
+        Scanner in = new Scanner(System.in);
+        System.out.print("Введите число: ");
+        int n = in.nextInt();
+        int[] f = new int[n];
+        f[0] = 0;
+        f[1] = 1;
+        for (int i = 2; i < n; ++i) {
+            f[i] = f[i - 1] + f[i - 2];
+        }
+        for (int i = 0; i < n; ++i) {
+            System.out.println(f[i]);
+        }
 
         //Задача №6//
 //        Scanner in = new Scanner(System.in);
